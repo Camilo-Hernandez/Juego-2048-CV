@@ -6,7 +6,7 @@
 import time
 import math
 import sys
-from funciones import *
+from game_aux import *
 
 
 

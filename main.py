@@ -2,10 +2,8 @@ from functools import partial
 from threading import Thread
 import os
 
-
 def f():
-    os.system("python funcion_deteccion.py &")
-
+    os.system("python deteccion.py &")
 
 def g():
     os.system("python game.py &")
