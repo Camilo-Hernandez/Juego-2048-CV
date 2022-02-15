@@ -1,9 +1,9 @@
 # Juego 2048 usando la librería OpenCV
 Juego 2048 utilizando la cámara del computador como capturador de la imagen. Se utiliza un objeto azul, un lapicero por ejemplo, para accionar los botones que aparecen en el frame en pantalla.
 
-En este repositorio se desarrolló un programa con el fin de aplicar los conceptos dados en las clases de procesamiento digital de imágenes, en dicho programa se implementó un juego matemático con el cual se controla mediante la cámara web de la computadora.
+En este repositorio se desarrolló un programa con el fin de aplicar los conceptos dados en las clases de Procesamiento Digital de Imágenes. En dicho programa se implementó un juego matemático con el cual se controla mediante la cámara web de la computadora.
 
-Para ejecutar el programa es necesario tener todos los archivos en la misma carpeta y abrir cualquier entorno de trabajo que pueda desarrollar o ejecutar el lenguaje de programación Python, por ejemplo, Visual Studio Code o Spyder Anaconda. una vez abierto el entorno de programación se ejecuta el archivo llamado main.py el cual corre el juego y activa la cámara para el procesamiento del juego. es importante que mantenga la ventana del Juego 2048 activa en todo momento para mover el tablero.
+Para ejecutar el programa es necesario tener todos los archivos en la misma carpeta y abrir cualquier entorno de trabajo que pueda desarrollar o ejecutar el lenguaje de programación Python, por ejemplo, Visual Studio Code o Spyder Anaconda. Una vez abierto el entorno de programación se ejecuta el archivo llamado main.py el cual corre el juego y activa la cámara para el procesamiento del juego. es importante que mantenga la ventana del Juego 2048 activa en todo momento para mover el tablero.
 Otra forma de ejecutar el programa es utilizando una terminal del sistema, para esto se debe estar ubicado en la carpeta del juego donde están todos los archivos para la ejecución y con el comando _Python .\main.py_ se procede a ejecutar el juego.
 
 ### Herramientas y librerías necesarias:
