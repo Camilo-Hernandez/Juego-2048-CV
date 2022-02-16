@@ -32,11 +32,13 @@ while True:
     # ------------------------------------------------------------------- #
     cnts = detectar_objeto(frameHSV)
 
-    # ---- 7. Y finalmente se utiliza el concepto de detección de cambio ---- #
-    # ------ de flanco para detectar si la punta del lapicero -------------- #
-    # ------ ingresa a una de las 4 regiones de detección (botones) -------- #
-    detectar_objeto_dentro(
-        cnts, frame, UP_P, UP_LONG, DOWN_P, DOWN_LONG, LEFT_P, LEFT_LONG, RIGHT_P, RIGHT_LONG)
+    # ------------------------------------------------------------------- #
+    # ------ 7. Se utiliza el concepto de detección de cambio ----------- #
+    # ------ de flanco para detectar si la punta del lapicero ----------- #
+    # ------ ingresa a una de las 4 regiones de detección (botones) ----- #
+    # ------------------------------------------------------------------- #
+    detectar_objeto_dentro(frame, cnts, UP_P, UP_LONG, DOWN_P,
+                           DOWN_LONG, LEFT_P, LEFT_LONG, RIGHT_P, RIGHT_LONG)
     
     # ------------------------------------------------------------------- #
     # ------------------ 8. Mostrar en la pantalla ---------------------- #

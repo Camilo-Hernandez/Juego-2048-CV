@@ -1,11 +1,12 @@
 # -------------------------------------------------------------------------- #
 # ------- PLANTILLA DE CÓDIGO - -------------------------------------------- #
 # ------- Coceptos básicos de PDI------------------------------------------- #
-# ------- Por: David Fernández    david.fernandez@udea.edu.co - ------------ #
-# ------- Profesor Facultad de Ingenieria BLQ 21-409 - --------------------- #
-# ------- CC 71629489, Tel 2198528,  Wpp 3007106588 - ---------------------- #
+# ------- Por: Camilo Hernández Ruiz    camilo.hernandez1@udea.edu.co ------ #
+# -------      Yeison Monsalve Sánchez  yeison.monsalves@udea.edu.co ------- #
+# ------- Estudiantes Facultad de Ingenieria - Universidad de Antioquia ---- #
+# ------- Programa: Ingeniería de Telecomunicaciones ----------------------- #
 # ------- Curso Básico de Procesamiento de Imágenes y Visión Artificial----- #
-# ------- V2 Abril de 2015-------------------------------------------------- #
+# -------------------------------------------------------------------------- #
 # -------------------------------------------------------------------------- #
 
 # ------ 1. Importar las librerías ------- #

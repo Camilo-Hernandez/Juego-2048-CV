@@ -9,7 +9,7 @@ import keyboard
 colors = {'blue': (255, 0, 0), 'green': (0, 255, 0), 'red': (0, 0, 255), 'yellow': (60, 255, 255), 'magenta': (255, 0, 255), 'cyan': (255, 255, 0), 'white': (
     255, 255, 255), 'black': (0, 0, 0), 'gray': (125, 125, 125), 'rand': np.random.randint(0, high=256, size=(3,)).tolist(), 'dark_gray': (50, 50, 50), 'light_gray': (220, 220, 220)}
 
-# Rango de color azul para detectarlo
+# Rango de color azul para detectarlodd
 celesteBajo = np.array([75, 185, 88], np.uint8)
 celesteAlto = np.array([140, 255, 255], np.uint8)
 
@@ -142,7 +142,8 @@ def detectar_objeto_dentro(frame, cnts, UP_P, UP_LONG, DOWN_P, DOWN_LONG, LEFT_P
             # Dibujar un rectángulo alrededor del lapicero (area blanca de la imagen binaria)
             x, y2, w, h = cv2.boundingRect(c)
             x2 = x + w//2
-            key = None
+            # Dibujar el círculo que es detectado por los botones
+            cv2.circle(frame, (x2, y2), 2, colors['cyan'], 3)
             if x1 is not None:
                 # Si detecta la punta del lapicero en UP
                 if x2 > UP_P[0] and y2 > UP_P[1] and x2 < UP_LONG[0] and y2 < UP_LONG[1]:
@@ -170,8 +171,6 @@ def detectar_objeto_dentro(frame, cnts, UP_P, UP_LONG, DOWN_P, DOWN_LONG, LEFT_P
                     posicion_actual = 'OUT'
                     if (posicion_actual != posicion_anterior):
                         pass
-            # Dibujar el círculo que es detectado por los botones
-            cv2.circle(frame, (x2, y2), 2, colors['cyan'], 3)
             x1 = x2
             y1 = y2
             # Actualizar la posición anterior
